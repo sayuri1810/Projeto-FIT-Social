@@ -1,0 +1,80 @@
+@import url("https://use.typekit.net/zgk4azm.css");
+
+@font-face{
+    font-family: 'Dephiana';
+    src: url("FONTE/Dephiana\ \(DEMO\).ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+title {
+    color: #37222e;
+    font-family: myriad-pro,sans-serif;
+}    
+
+body{
+    font-family: myriad-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar-brand img {
+    width: 200px;
+}
+
+.navbar {
+    background: #dbd7d4;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #37222e;
+    font-size: 1.3rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #37222e;
+}
+
+.fonteLogoSocial {
+    font-family: 'Dephiana';
+    color: #37222e;
+}
+
+.carousel-caption {
+    color: #37222e;
+}
+
+section {
+    color: #37222e;
+}
+
+footer {
+    color: #37222e;
+}
+
+footer .navbar-brand img {
+    width: 100px;
+}
+
+div .modal-header img {
+    width: 100px;    
+}
+
+.botaoCorBeleza {
+    background-color: #996EA0;
+    color: white;
+}
+
+div .form-group {
+    margin: 32px;
+}
+
+.modal-footer {
+    margin: 18px;
+}
+
