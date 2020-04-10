@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header>
+  <header class=sticky-top>
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
         <img src="IMAGEM/LogoHorizontal.png" alt="FIT Social">
@@ -27,23 +27,23 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="Inicio.html">Página Inicial<span class="sr-only">(current)</span></a>
+            <a class="nav-link px-5" href="Inicio.html">Página Inicial<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Sobrenos.html">Sobre nós</a>
+            <a class="nav-link px-5" href="#sobreNos">Sobre nós</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-toggle="modal" data-target="#cadastreSe">Cadastre-se</a>
+            <a class="nav-link px-5" href="#" data-toggle="modal" data-target="#cadastreSe">Cadastre-se</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-toggle="modal" data-target="#entrar">Entrar</a>
+            <a class="nav-link px-5" href="#" data-toggle="modal" data-target="#entrar">Entrar</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <section>
+  <section class="pb-5">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -52,21 +52,21 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="IMAGEM/MulherCorrendo.jpeg" class="d-block w-100" alt="Foto">
+          <img src="IMAGEM/MulherCorrendo.jpeg" class="d-block w-100" alt="Foto Atividade Física">
           <div class="carousel-caption d-none d-md-block">
             <h1 class="fonteLogoSocial">venha fazer parte da nossa rede social</h1>
             <h5>saúde, atividade física e beleza<br>Grupos motivacionais profissionais</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="IMAGEM/MassagemCasal.png" class="d-block w-100" alt="Foto">
+          <img src="IMAGEM/MassagemCasal.png" class="d-block w-100" alt="Foto Beleza">
           <div class="carousel-caption d-none d-md-block">
             <h1 class="fonteLogoSocial">venha fazer parte da nossa rede social</h1>
             <h5>saúde, atividade física e beleza<br>Grupos motivacionais profissionais</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="IMAGEM/Saude.jpg" class="d-block w-100" alt="Foto">
+          <img src="IMAGEM/Saude.jpg" class="d-block w-100" alt="Foto Saúde">
           <div class="carousel-caption d-none d-md-block">
             <h1 class="fonteLogoSocial">venha fazer parte da nossa rede social</h1>
             <h5>saúde, atividade física e beleza<br>Grupos motivacionais profissionais</h5>
@@ -84,20 +84,77 @@
     </div>
   </section>
 
-  <footer>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <p>
-        <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i>
-        Fale com o nosso suporte
-      </p>
-      <a class="navbar-brand mx-auto" href="#">
-        <img src="IMAGEM/LogoHorizontal.png" alt="FIT Social">
-      </a>
-      <p> &copy; 2020 FIT <span class="fonteLogoSocial">Social</span></p>
-    </nav>
+  <section id="conectar" class="py-5">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-6">
+          <h1 class="text-center py-5">Nós conectamos você</h1>           
+        </div>
+        <div class="col-md-6">
+          <img src="IMAGEM/CasalAcademia.jpg" class="img-fluid" alt="Foto Atividade Física">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="IMAGEM/MassagemCasal2.png" class="img-fluid" alt="Foto Beleza">          
+        </div>
+        <div class="col-md-6">          
+          <h1 class="text-center py-5">com profissionais e pessoas</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-6">
+          <h1 class="text-center py-5">com os mesmos propósitos</h1> 
+        </div>
+        <div class="col-md-6">
+          <img src="IMAGEM/alimentação coração2.jpg" class="img-fluid" alt="Foto Saúde">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobreNos" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="IMAGEM/sobrenos.jpeg" class="img-fluid" alt="Foto Sobre Nós">
+        </div>
+        <div class="col-md-6">
+          <h1>Sobre nós</h1>
+          <p>Fit Social é uma rede social para pessoas que querem ter uma vida saudável. Com grupos motivacionais e
+            profissionais especializados dando o suporte necessário. É uma rede social colaborativa, onde os usuários se
+            ajudam com os conteúdos e se interagem com o mesmo propósito.</p>
+            <h2 class="fonteLogoSocial">Venha fazer parte da nossa rede social</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+        <p>
+          <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i>
+          Fale com o nosso suporte</p>
+        </div>           
+        <div class="col-md-4">
+          <img src="IMAGEM/LogoHorizontal.png" class="img-fluid" alt="FIT Social">
+        </div>
+        <div class="col-md-4">
+          <p> &copy; 2020 FIT <span class="fonteLogoSocial">Social</span></p>
+        </div>
+      </div>
+    </div>
   </footer>
 
-  <!-- Modal criar conta -->
+
+
+  <!-- Modal Cadastra-se  -->
   <div class="modal fade" id="cadastreSe" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -108,7 +165,7 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body px-5">
           <h5 class="text-center">Criar uma nova conta</h5>
           <form>
             <!-- verificar o campo abaixo, incluir o type tel no codigo abaixo retirado do bootstrap.Está correto? -->            
@@ -118,14 +175,14 @@
                 placeholder="Email ou telefone">
             </div>
             <div class="form-group">
-              <label for="formGroupExampleInput"></label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome Completo">
+              <label for="nomeCompleto"></label>
+              <input type="text" class="form-control" id="nomeCompleto" placeholder="Nome Completo">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1"></label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+              <label for="senha"></label>
+              <input type="password" class="form-control" id="senha" placeholder="Senha">
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer m-3 pt-4">
               <button type="submit" class="btn botaoCorBeleza btn-block">Cadastre-se</button>
               <a href="#" class="text-center text-secondary">Ao se cadastrar, você concorda com nossos Termos, Política
                 de Dados e Política de Cookies.
@@ -137,7 +194,7 @@
     </div>
   </div>
   </div>
-  <!-- Modal fim criar conta -->
+  <!-- Modal fim Cadastre-se -->
 
    <!-- Modal - entrar -->
    <div class="modal fade" id="entrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -150,25 +207,27 @@
            <span aria-hidden="true">&times;</span>
          </button>
        </div>
-       <div class="modal-body">
+       <div class="modal-body px-5">
          <h5 class="text-center">Entrar</h5>
          <form>
            <!-- verificar o campo abaixo, incluir o type tel no codigo abaixo retirado do bootstrap.Está correto? -->
            <div class="form-group">
              <label for="emailTelefone" class="col-form-label"></label>
-             <input type="email" type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+             <input type="email" type="tel" class="form-control" id="emailTelefone" aria-describedby="emailHelp"
                placeholder="Email ou telefone">
            </div>
            <div class="form-group">
-             <label for="exampleInputPassword1"></label>
-             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+             <label for="senha"></label>
+             <input type="password" class="form-control" id="senha" placeholder="Senha">
            </div>
-           <div class="modal-footer">
+           <div class="modal-footer m-3 pt-4">
              <button type="submit" class="btn botaoCorBeleza btn-block">Entrar</button>
-             <a href="#" class="text-center text-secondary"> Esqueceu a senha ?
-             </a> 
-             <a href="#" class="text-center text-secondary">Ainda não tem conta ?</a>
-             </a>
+             <div class="container mt-3">
+              <a href="#" class="text-center text-secondary" data-toggle="modal" data-target="#esqueceuSenha"> Esqueceu a senha ?
+              </a><br> 
+              <a href="#" class="text-center text-secondary">Ainda não tem conta ?</a>
+              </a>
+            </div>
             </div>
          </form>
        </div>
@@ -177,6 +236,42 @@
  </div>
  </div>
  <!-- Modal fim entrar -->
+
+<!-- Modal - Esqueceu a senha -->
+<div class="modal fade" id="esqueceuSenha" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <img src="IMAGEM/LogoHorizontal.png" alt="FIT Social">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body px-5">
+      <h5 class="text-center">Esqueci minha senha</h5>
+      <h6 class="text-center text-secondary">Para redefinir a senha, informe o seu e-mail ou telefone cadastrado na sua conta e lhe enviaremos um link com as instruções</h6>
+      <form>
+        <!-- verificar o campo abaixo, incluir o type tel no codigo abaixo retirado do bootstrap.Está correto? -->
+        <div class="form-group">
+          <label for="emailTelefone" class="col-form-label"></label>
+          <input type="email" type="tel" class="form-control" id="emailTelefone" aria-describedby="emailHelp"
+            placeholder="Email ou telefone">
+        </div>
+        <div class="modal-footer m-3 pt-4">
+          <button type="submit" class="btn botaoCorBeleza btn-block">Próximo</button>
+          <div class="container mt-3">
+            <a href="#" class="text-center text-secondary">Cancelar</a>
+          </div>
+         </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- Modal fim Esqueceu a senha -->
+
 
 
 
