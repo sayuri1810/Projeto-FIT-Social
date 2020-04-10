@@ -5,14 +5,10 @@
     src: url("FONTE/Dephiana\ \(DEMO\).ttf");
 }
 
+/*Geral */
 *{
     box-sizing: border-box;
 }
-
-title {
-    color: #37222e;
-    font-family: myriad-pro,sans-serif;
-}    
 
 body{
     font-family: myriad-pro,sans-serif;
@@ -23,47 +19,17 @@ body{
     padding: 0;
 }
 
-header .navbar-brand img {
-    width: 200px;
-}
-
-.navbar {
-    background: #dbd7d4;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #37222e;
-    font-size: 1.3rem;
-    padding: 40px;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-    color: #37222e;
-}
-
+p {
+    text-align: justify;
+ }
+ 
 .fonteLogoSocial {
     font-family: 'Dephiana';
     color: #37222e;
 }
 
-.carousel-caption {
+.letraRoxoEscuro {
     color: #37222e;
-}
-
-section {
-    color: #37222e;
-}
-
-footer {
-    color: #37222e;
-}
-
-footer .navbar-brand img {
-    width: 100px;
-}
-
-div .modal-header img {
-    width: 100px;    
 }
 
 .botaoCorBeleza {
@@ -71,11 +37,81 @@ div .modal-header img {
     color: white;
 }
 
-div .form-group {
-    margin: 32px;
+.corCadastro {
+    background-image: linear-gradient(to right,#581c44, #e3d6dd );
+}
+
+.fotoPerfil {
+    width: 250px;
+}
+
+/* Barra Navegação - header */
+header {
+    background-color: #dbd7d4;
+}
+
+header .navbar-brand img {
+    width: 200px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #37222e;
+    font-size: 1.3rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #37222e;
+}
+
+/* Cor do texto dentro do carousel */
+.carousel-caption {
+    color: #37222e;
+}
+
+/* Cor do texto e fundo de toda a section */
+section {
+    color: #37222e;
+    background-color: #dbd7d4;
+}
+
+/* Pagina inicial */
+#sobreNos {
+    font-style: italic;
+}
+
+#conectar {
+    font-style: italic;
+}
+
+/*Footer */
+footer {
+    color: #37222e;
+    background-color: #dbd7d4;
+    text-align: center;
+}
+
+footer img {
+    width: 100px;
+}
+
+.rodape p {
+    text-align: center;
+}
+
+/*Modal (entrar, cadastro, esqueceu a senha) */
+div .modal-header img {
+    width: 100px;    
+}
+
+.modal-header{
+    border-bottom: none;
 }
 
 .modal-footer {
-    margin: 18px;
+    border-top: none;
+    text-align: center;
 }
+
+
+
 
